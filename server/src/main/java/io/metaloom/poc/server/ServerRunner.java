@@ -19,11 +19,10 @@ public class ServerRunner {
 		// Start the server
 		serverComponent.restServer().start().subscribe(() -> {
 			System.out.println("REST server started");
+			System.out.println("Now connect to http://localhost:8888/hello");
 		}, err -> {
 			err.printStackTrace();
 		});
-
-		// Now connect to http://localhost:8888/hello
 	}
 
 }

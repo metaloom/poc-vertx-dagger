@@ -34,6 +34,11 @@
 			<artifactId>poc-vertx-dagger-common</artifactId>
 			<groupId>io.metaloom.poc</groupId>
 		</dependency>
+		<dependency>
+			<groupId>com.google.dagger</groupId>
+			<artifactId>dagger-compiler</artifactId>
+			<optional>true</optional>
+		</dependency>
 	</dependencies>
 
 </project>
